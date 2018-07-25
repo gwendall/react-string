@@ -1,6 +1,8 @@
 # React String
 
-React String allows you to render each letter of a string separately. See it in action [here](https://www.theatelier.tech).
+React String allows you to render each letter of a string separately.
+
+See it in action [here](https://www.theatelier.tech).
 
 # Installation
 
