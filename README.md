@@ -16,7 +16,7 @@ yarn add react-string
 
 # How it works
 
-In this example, the letters of the string "hello world." will be rendered alternatively blue and red.
+In this example, the letters of a string will be rendered alternatively blue and red.
 
 ```javascript
 import React from 'react';
