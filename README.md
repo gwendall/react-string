@@ -22,10 +22,13 @@ In this example, the letters of the string "hello world." will be rendered alter
 import React from 'react';
 import String from 'react-string';
 
-const isOdd = n => n % 2;
-const renderLetter = (letter, index) => (
-  <span style={{ color: isOdd(index) ? 'red' : 'blue' }}>{letter}</span>
+export default () => (
+  <String
+    renderLetter={(letter, index) => (
+      <span style={{ color: index % 2 ? 'red' : 'blue' }}>{letter}</span>
+    )}
+  >
+    Hello world.
+  </String>
 );
-const EXAMPLE_STRING = 'Hello world.';
-export default () => <String renderLetter={renderLetter}>{EXAMPLE_STRING}</String>;
 ```

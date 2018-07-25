@@ -1,6 +1,6 @@
 {
   "name": "react-string",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Render each character of a string separately",
   "main": "lib/index.js",
   "scripts": {
