@@ -8,8 +8,8 @@ function Demo() {
     <div>
       <h1>React String</h1>
       <String
-        renderChar={(letter, index) => (
-          <span style={{ color: index % 2 ? 'red' : 'blue' }}>{letter}</span>
+        renderChar={(character, index) => (
+          <span style={{ color: index % 2 ? 'red' : 'blue' }}>{character}</span>
         )}
       >
         Hello world.
